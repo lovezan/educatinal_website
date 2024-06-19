@@ -73,7 +73,7 @@
 .chatbox-container {
   position: fixed;
   bottom: 80px;
-  right: 16px;
+  right: 20px;
   width: 300px;
   height: 400px;
   display: flex;
@@ -134,4 +134,23 @@
   padding: 8px;
   background-color: #3f51b5;
   color: #fff;
+}
+
+
+@media screen and (max-width: 450px){
+
+  .styled-fab.left {
+    left: 16px;
+    height: 80px;
+    width: 80px;
+
+}
+
+.styled-fab.right {
+  
+  height: 80px;
+  width: 80px;
+  right: 16px;
+}
+
 }

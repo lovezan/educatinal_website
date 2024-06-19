@@ -63,12 +63,12 @@
 
 @media screen and (max-width: 450px) {
   .margin {
-    height: 60vh;
+    height: 80vh;
   }
   .hero {
     background-position: right;
-    padding-top: 50%;
-    height: 80vh;
+    padding-top: 60%;
+    height: 100vh;
   }
   #heading h1 {
     font-size: 35px;

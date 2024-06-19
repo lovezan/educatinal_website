@@ -294,7 +294,7 @@ header {
   .mobile-nav {
     display: flex;
     position: absolute;
-    top: 15vh;
+    top: 10vh;
     left: 0;
     width: 100%;
     background-color: #6d1eb2;
@@ -370,6 +370,7 @@ header {
     position: relative;
   }
   header {
+    width: 80vw;
     background-color: rgba(126, 126, 126, 0.2);
     margin: 0 30px;
     position: static;
@@ -444,6 +445,7 @@ header {
     font-weight: bold;
 }
 .head {
+  width: 80vw;
   padding: 10px 0;
   color: #ffffff;
   position: fixed;
@@ -455,10 +457,13 @@ header {
 }
 .start {
   background-color: #9b2bca;
-  padding: 20px 70px;
+  padding: 20px 25px;
   color: #fff;
   clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
   cursor: pointer;
+}
+.start:hover{
+  padding: 20px 25px;
 }
   header ul.flexSB {
     display: none;
@@ -494,7 +499,7 @@ header {
 /* Add open class to show the mobile-nav */
 .mobile-nav.open {
   display: flex;
-  top: 0; /* Move the mobile-nav to the top of the container */
+  top: 100px; /* Move the mobile-nav to the top of the container */
 }
 
 }
