@@ -1,0 +1,54 @@
+.blog img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* transition: transform 0.5s; */
+}
+/* .blog img :hover{
+  transform: scale(2);
+} */
+.blog .text {
+  padding: 40px 30px;
+}
+.blog .items {
+  overflow: hidden;
+  /* box-shadow: 0 5px 25px -2px rgba(0, 0, 0, 0.5); Initial box-shadow */
+  transition: box-shadow 0.5s ease, transform 0.5s ease; /* Smooth transition for box-shadow and transform */
+}
+
+.blog .items:hover {
+  box-shadow: 0 10px 30px -2px rgba(0, 0, 0, 0.5); /* Increase box-shadow on hover */
+  transform: scale(1.01) translateY(-20px); /* Apply transformation on hover */
+}
+.blog .items:hover img {
+  /* overflow: hidden; */
+  transform: scale(1.1); /* Zoom in by increasing the scale to 1.2 on hover */
+  transition: transform 0.5s; /* Apply transition to the transform property */
+}
+.blog h1 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 20px 0;
+  transition: 0.5s;
+}
+.blog h1:hover {
+  color: #1eb2a6;
+  cursor: pointer;
+}
+.blog span {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #1eb2a6;
+}
+.blog span label {
+  margin-left: 10px;
+  color: grey;
+  font-size: 14px;
+}
+.blog span:nth-last-child(1) label {
+  color: #1eb2a6;
+}
+.blog p {
+  color: grey;
+}
